@@ -1,0 +1,42 @@
+﻿  ImageProcessing.cpp
+  ImagesCollection.cpp
+C:\C++\form\ImagesCollection.cpp(35,26): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  MyForm.cpp
+C:\C++\form\MyForm.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\C++\form\MyForm.h(4,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\C++\form\MyForm.h(5,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\C++\form\MyForm.h(6,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\C++\form\MyForm.h(7,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\C++\form\MyForm.h(311,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\C++\form\MyForm.h(370,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\C++\form\MyForm.h(380,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\C++\form\MyForm.h(440,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\C++\form\MyForm.h(449,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\C++\form\MyForm.h(458,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\C++\form\MyForm.h(467,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\C++\form\MyForm.h(543,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\C++\form\MyForm.h(552,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\C++\form\MyForm.h(662,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\C++\form\MyForm.h(671,1): warning C4305: аргумент: усечение из "double" в "float"
+C:\C++\form\MyForm.cpp(179,33): warning C4101: e: неиспользованная локальная переменная
+C:\C++\form\MyForm.cpp(303,38): warning C4101: e: неиспользованная локальная переменная
+C:\C++\form\MyForm.cpp(307,22): warning C4101: e: неиспользованная локальная переменная
+C:\C++\form\MyForm.cpp(323,37): warning C4101: e: неиспользованная локальная переменная
+C:\C++\form\MyForm.cpp(326,38): warning C4101: e: неиспользованная локальная переменная
+C:\C++\form\MyForm.cpp(329,22): warning C4101: e: неиспользованная локальная переменная
+C:\C++\form\MyForm.cpp(423,33): warning C4101: e: неиспользованная локальная переменная
+C:\C++\form\MyForm.cpp(426,37): warning C4101: e: неиспользованная локальная переменная
+C:\C++\form\MyForm.cpp(429,22): warning C4101: e: неиспользованная локальная переменная
+C:\C++\form\MyForm.cpp(449,33): warning C4101: e: неиспользованная локальная переменная
+  Создание кода...
+C:\OpenCv\opencv\build\include\opencv2\core\cuda.inl.hpp(105): warning C4793: cv::cuda::GpuMat::GpuMat: функция скомпилирована как машинная:
+  	Обнаружена встроенная функция, которая не поддерживается в управляемом коде
+C:\OpenCv\opencv\build\include\opencv2\core\cuda.inl.hpp(487): warning C4793: cv::cuda::HostMem::HostMem: функция скомпилирована как машинная:
+  	Обнаружена встроенная функция, которая не поддерживается в управляемом коде
+C:\OpenCv\opencv\build\include\opencv2\core\cuda.inl.hpp(105): warning C4793: cv::cuda::GpuMat::GpuMat: функция скомпилирована как машинная:
+  	Обнаружена встроенная функция, которая не поддерживается в управляемом коде
+C:\OpenCv\opencv\build\include\opencv2\core\cuda.inl.hpp(487): warning C4793: cv::cuda::HostMem::HostMem: функция скомпилирована как машинная:
+  	Обнаружена встроенная функция, которая не поддерживается в управляемом коде
+C:\C++\form\ImagesCollection.cpp(27): warning C4715: imc::ImagesCollection::FindImages: значение возвращается не при всех путях выполнения
+  DataStorage.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  form.vcxproj -> C:\C++\form\x64\Release\form.exe

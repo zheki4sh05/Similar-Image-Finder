@@ -1,0 +1,118 @@
+  form.HelpForm.resources - Embedded, ContainedInManifestFile, 
+  form.MyForm.resources - Embedded, ContainedInManifestFile, 
+  form.SettingsForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly form, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class DataStorage: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetSimilarity(Int32): PrivateScope, Public, Static, HideBySig
+    SetSize(Int32, Int32): PrivateScope, Public, Static, HideBySig
+    SetDelCondition(Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    GetSimilarity(): PrivateScope, Public, Static, HideBySig
+    GetMinWidth(): PrivateScope, Public, Static, HideBySig
+    GetMinHeight(): PrivateScope, Public, Static, HideBySig
+    GetDelOption(): PrivateScope, Public, Static, HideBySig
+    SetExtension(Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal)): PrivateScope, Public, Static, HideBySig
+    PNG(): PrivateScope, Public, Static, HideBySig
+    JPG(): PrivateScope, Public, Static, HideBySig
+    JPEG(): PrivateScope, Public, Static, HideBySig
+    WEBP(): PrivateScope, Public, Static, HideBySig
+    TIFF(): PrivateScope, Public, Static, HideBySig
+    SetActiveDirectory(String): PrivateScope, Public, Static, HideBySig
+    GetActiveDirectory(): PrivateScope, Public, Static, HideBySig
+    addToList(String, String, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    addGridToList(String, String, Int32): PrivateScope, Public, Static, HideBySig
+    getFilePath(String): PrivateScope, Public, Static, HideBySig
+    GetImageSize(String, Int32* IsImplicitlyDereferenced, Int32* IsImplicitlyDereferenced): PrivateScope, Public, Static, HideBySig
+    DeleteRows(String): PrivateScope, Public, Static, HideBySig
+    FillDataGrid(DataGridView): PrivateScope, Public, Static, HideBySig
+    Save(): PrivateScope, Public, Static, HideBySig
+    Load(): PrivateScope, Public, Static, HideBySig
+    ClearListImg(): PrivateScope, Public, Static, HideBySig
+    ClearGrid(): PrivateScope, Public, Static, HideBySig
+Class DataStorage+Img: AutoLayout, AnsiClass, Class, NestedPublic, Serializable, BeforeFieldInit
+    Void .ctor(System.String, System.String, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String fileName : Public
+    System.String filePath : Public
+    Int32 width : Public
+    Int32 height : Public
+Class DataStorage+GridRow: AutoLayout, AnsiClass, Class, NestedPublic, Serializable, BeforeFieldInit
+    Void .ctor(System.String, System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String fileName1 : Public
+    System.String fileName2 : Public
+    Int32 sim : Public
+Class FileDataManager: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SaveToFile<DataStorage::Img ^>(List`1, String): PrivateScope, Public, Static, HideBySig
+    SaveToFile<DataStorage::GridRow ^>(List`1, String): PrivateScope, Public, Static, HideBySig
+    LoadFromFile<DataStorage::Img ^>(String): PrivateScope, Public, Static, HideBySig
+    LoadFromFile<DataStorage::GridRow ^>(String): PrivateScope, Public, Static, HideBySig
+    GetListPath(): PrivateScope, Public, Static, HideBySig
+    GetSettingsPath(): PrivateScope, Public, Static, HideBySig
+    GetDataGridPath(): PrivateScope, Public, Static, HideBySig
+    GetPrjectFolder(): PrivateScope, Public, Static, HideBySig
+    SetProjectFolder(String): PrivateScope, Public, Static, HideBySig
+Class form.HelpForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class form.SettingsForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class form.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean ignoreSelection : Public
+    Boolean stopSearching : Public
+    Boolean saved : Public
+  Methods:
+    MyForm_Load(Object, EventArgs): PrivateScope, Public, HideBySig
+    AddFolderBtn_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    RemoveFolderBtn_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    ClearAllFoldersBtn_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    StartSearchBtn_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    MoveToTopBtn_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    MoveToBottomBtn_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    DataGridView1_SelectionChanged(Object, EventArgs): PrivateScope, Public, HideBySig
+    Browse1img_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    Browse2img_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    OpenExplorer(String): PrivateScope, Public, HideBySig
+    GetDataFromGrid(Int32): PrivateScope, Public, HideBySig
+    SettingsToolStripMenuItem_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    ClearList_Click(Object, EventArgs): PrivateScope, Public, HideBySig
+    Exit(Object, EventArgs): PrivateScope, Public, HideBySig
+    MyForm_FormClosing(Object, FormClosingEventArgs): PrivateScope, Public, HideBySig
+    DelImageBtn1(Object, EventArgs): PrivateScope, Public, HideBySig
+    MoveImgBtn1(Object, EventArgs): PrivateScope, Public, HideBySig
+    Timer1_Tick(Object, EventArgs): PrivateScope, Public, HideBySig
+    DeleteFile(String): PrivateScope, Public, HideBySig
+    MoveFile(String, String): PrivateScope, Public, HideBySig
+    MoveImg2Btn(Object, EventArgs): PrivateScope, Public, HideBySig
+    ShowDialog(Int32): PrivateScope, Public, HideBySig
+    ClearPictureBox(): PrivateScope, Public, HideBySig
+    RefreshDataGrid(String): PrivateScope, Public, HideBySig
+    DeleteImg(Int32): PrivateScope, Public, HideBySig
+    delImageBtn2(Object, EventArgs): PrivateScope, Public, HideBySig
+    ClearGrid(): PrivateScope, Public, HideBySig
+    SaveToFile(Object, EventArgs): PrivateScope, Public, HideBySig
+    LoadFromFile(Object, EventArgs): PrivateScope, Public, HideBySig
+    SaveAsToFile(Object, EventArgs): PrivateScope, Public, HideBySig
+    OpenHelpForm(Object, EventArgs): PrivateScope, Public, HideBySig
+    ClearDataLists(): PrivateScope, Public, HideBySig

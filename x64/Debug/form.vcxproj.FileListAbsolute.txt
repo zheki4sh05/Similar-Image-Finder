@@ -1,0 +1,6 @@
+C:\C++\form\x64\Debug\form.vcxproj.AssemblyReference.cache
+C:\C++\form\x64\Debug\form.vcxproj.SuggestedBindingRedirects.cache
+C:\C++\form\x64\Debug\form.MyForm.resources
+C:\C++\form\x64\Debug\form.SettingsForm.resources
+C:\C++\form\x64\Debug\form.vcxproj.GenerateResource.cache
+C:\C++\form\x64\Debug\form.exe
